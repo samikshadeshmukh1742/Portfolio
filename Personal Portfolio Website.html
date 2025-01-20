@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://127.0.0.1:5500/ -->
+<html lang="en">
+
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Personal Portfolio Website</title>
+        <link rel="stylesheet"
+            href="./Personal Portfolio Website_files/style.css">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+            integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+            crossorigin="anonymous" referrerpolicy="no-referrer">
+    </head>
+
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img
+                        src="./Personal Portfolio Website_files/Samiksha logo.jpg"
+                        class="logo">
+
+                    <ul id="sidemenu">
+                        <li><a
+                                href="http://127.0.0.1:5500/#header">Home</a></li>
+                        <li><a
+                                href="http://127.0.0.1:5500/#about">About</a></li>
+                        <li><a
+                                href="http://127.0.0.1:5500/#services">Services</a></li>
+                        <li><a
+                                href="http://127.0.0.1:5500/#portfolio">Portfolio</a></li>
+                        <li><a
+                                href="http://127.0.0.1:5500/#contact">Contact</a></li>
+                        <i class="fa-solid fa-square-xmark"
+                            onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>Wed Developer</p>
+                    <h1>Hi, I'm <span>Samiksha</span><br>Deshmukh From Solapur
+                    </h1>
+                </div>
+            </div>
+
+        </div>
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="./Personal Portfolio Website_files/user.jpg">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>This is Samiksha Deshmukh, I am from Solapur.I have
+                            completed my bachlores Degree in the field of
+                            Computer Science from Solapur University. I am very
+                            passionate intrested in IT Sector.I am looking for
+                            an opportunity where I can enhance
+                            my professional skills and knowledge in an
+                            organization of technical field, which recignizes
+                            the value of hard work and trust with
+                            responsibilities and challenges.Skills:- Java,HTML
+                            &amp; CSS,MS Word,MS Excel,DataBase Management
+                            System, Communication Skill,Presentation.
+                        </p>
+                        <div class="tab-titles">
+                            <p class="tab-links"
+                                onclick="opentab(&#39;skills&#39;)">Skills</p>
+                            <p class="tab-links"
+                                onclick="opentab(&#39;experience&#39;)">Experience</p>
+                            <p class="tab-links active-link"
+                                onclick="opentab(&#39;education&#39;)">Education</p>
+                        </div>
+                        <div class="tab-contents" id="skills">
+                            <ul>
+                                <li><span>Web Development</span><br>Web app
+                                    Development
+                                </li>
+                                <li><span>App
+                                        Development</span><br>Building
+                                    Android/ios apps</li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2024 - Current</span><br>Web
+                                    Development Internship at CodSoft Internship
+                                    Program
+                                </li>
+
+                            </ul>
+                        </div>
+                        <div class="tab-contents active-tab" id="education">
+                            <ul>
+                                <li><span>Batchlors of Computer
+                                        Science(B.sc)</span><br> College Name:
+                                    Shriram Institute of Information Technology,
+                                    Paniv.(2020-2023) <br>Percentage: 73.46%
+                                </li>
+                                <li><span>Class XII</span><br>College Name: New
+                                    English School &amp; Junior College Of
+                                    Science, Bhalawani.(2019-2020)
+                                    <br>Percentage: 62.92%</li>
+                                <li><span>Class X</span><br>College Name: New
+                                    English School &amp; Junior College Of
+                                    Science, Bhalawani.(2018)
+                                    <br>Percentage: 65.20%</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>WEB DESIGN</h2>
+                        <p>Design is not just what is looks like and feels
+                            like.Design is how it works.</p>
+                        <a href="http://127.0.0.1:5500/#">Learn more</a>
+                    </div>
+
+                    <div>
+                        <i class="fa-solid fa-crop"></i>
+                        <h2> WEB APP DEVELOPMENT</h2>
+                        <p>"Web app Development is not just about writing code, It's about creating a seamless user experience".
+                        </p>
+                        <a href="http://127.0.0.1:5500/#">Learn more</a>
+                    </div>
+
+                    <div>
+                        <i class="fa-brands fa-app-store-ios"></i>
+                        <h2> FULL STACK DEVELOPMENT</h2>
+                        <p>Full stack developers are responsible for designing
+                            and building both the front-end &amp; back-end of
+                            web applications. They should have the skills to
+                            optimise applications for speed and user experience,
+                            and be able to delay multiple
+                            environments.
+                        </p>
+                        <a href="http://127.0.0.1:5500/#">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img
+                            src="./Personal Portfolio Website_files/work-1.png">
+                        <div class="layer">
+                            <h3>Social Media App</h3>
+                            <p>The app connects you to the talented people
+                                around the world. Download it from play store
+                            </p>
+                            <a href="http://127.0.0.1:5500/#"><i
+                                    class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img
+                            src="./Personal Portfolio Website_files/work-2.png">
+                        <div class="layer">
+                            <h3>Music App</h3>
+                            <p>The app connects you to the talented people
+                                around the world. Download it from play store
+                            </p>
+                            <a href="http://127.0.0.1:5500/#"><i
+                                    class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img
+                            src="./Personal Portfolio Website_files/work-3.png">
+                        <div class="layer">
+                            <h3>Online Shopping App</h3>
+                            <p>The app connects you to the talented people
+                                around the world. Download it from play store
+                            </p>
+                            <a href="http://127.0.0.1:5500/#"><i
+                                    class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+                <a href="http://127.0.0.1:5500/#" class="btn">See more</a>
+
+            </div>
+        </div>
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i
+                                class="fa-solid fa-envelope"></i>contact@exapmle.com</p>
+                        <p><i class="fa-solid fa-phone"></i>0123456789</p>
+                        <div class="social-icons">
+                            <a href="https://facebook.com/"><i
+                                    class="fab fa-facebook"></i></a>
+                            <a href="https://twitter.com/"><i
+                                    class="fab fa-twitter-square"></i></a>
+                            <a href="https://instagram.com/"><i
+                                    class="fab fa-instagram"></i></a>
+                            <a href="https://linkdin.com/"><i
+                                    class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://github.com/"><i
+                                    class="fa-brands fa-github"></i></a>
+                        </div>
+                        <a href="http://127.0.0.1:5500/images/My_CV_.pdf"
+                            download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form>
+                            <input type="text" name="Name"
+                                placeholder="Your Name" required>
+                            <input type="email" name="Email"
+                                placeholder="Your Email" required>
+                            <textarea name="Message" rows="6"
+                                placeholder="Your Message"></textarea>
+                            <button type="submit"
+                                class="btn btn2">submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>copyright@Samiksha* <i class="fas fa-heart"></i></p>
+            </div>
+        </div>
+
+        <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+        <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+
+        }
+
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+        <!-- Code injected by live-server -->
+        <script>
+        // <![CDATA[  <-- For SVG support
+        if ('WebSocket' in window) {
+            (function() {
+                function refreshCSS() {
+                    var sheets = [].slice.call(document.getElementsByTagName("link"));
+                    var head = document.getElementsByTagName("head")[0];
+                    for (var i = 0; i < sheets.length; ++i) {
+                        var elem = sheets[i];
+                        var parent = elem.parentElement || head;
+                        parent.removeChild(elem);
+                        var rel = elem.rel;
+                        if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+                            var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+                            elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+                        }
+                        parent.appendChild(elem);
+                    }
+                }
+                var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+                var address = protocol + window.location.host + window.location.pathname + '/ws';
+                var socket = new WebSocket(address);
+                socket.onmessage = function(msg) {
+                    if (msg.data == 'reload') window.location.reload();
+                    else if (msg.data == 'refreshcss') refreshCSS();
+                };
+                if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+                    console.log('Live reload enabled.');
+                    sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+                }
+            })();
+        } else {
+            console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+        }
+        // ]]>
+    </script>
+
+    </body>
+
+</html>
